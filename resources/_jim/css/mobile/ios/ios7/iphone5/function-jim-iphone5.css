@@ -1,0 +1,330 @@
+/* start iPhone 5 css values*/
+#jim-mobile { position:relative; top:0px; left:0px; width:452px; height:871px; margin:0 auto; }
+#jim-case { background-image: url("../../../../../images/mobile/ios/ios7/iphone5/iphone5@2x.png"); height:871px; width:452px; background-size: 100% auto; }
+#jim-mobile #simulation { position: relative; height: 100%; overflow:hidden; }
+#jim-mobile .ui-page { overflow:hidden; }
+@font-face {
+    font-family: 'iOS-Light';
+    src: url('../other/iOS-Light.eot?#iefix') format('embedded-opentype'), 
+         url('../other/iOS-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'iOS-Regular';
+    src: url('../other/iOS-Regular.eot?#iefix') format('embedded-opentype'), 
+         url('../other/iOS-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'iOS-Bold';
+    src: url('../other/iOS-Bold.eot?#iefix') format('embedded-opentype'), 
+         url('../other/iOS-Bold.ttf') format('truetype');
+}
+
+/* orientation values */
+#jim-mobile.landscape { height:452px; width:871px; }
+#jim-case.portrait { -moz-transform:rotate(0deg); -webkit-transform:rotate(0deg); -o-transform:rotate(0deg); transform:rotate(0deg); -moz-transform-origin:auto; -webkit-transform-origin:auto; -o-transform-origin:auto; transform-origin:auto; }
+#jim-case.landscape { -moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); -o-transform:rotate(90deg); transform:rotate(90deg); -moz-transform-origin:96% 50% 0; -webkit-transform-origin:96% 50% 0; -o-transform-origin:96% 50% 0; transform-origin:96% 50% 0; }
+#jim-container.portrait { position: absolute; top: 150px; left: 68px; width: 320px; height: 568px; }
+#jim-container.landscape { position: absolute; top: 70px; left: 151px; width: 568px; height: 320px; }
+
+/* keyboard values */
+.portrait #jim-iphone-kb { position: absolute; top: 352px; left: 0px; width: 320px; height: 216px; z-index:999; display:none; }
+.portrait #jim-iphone-kb ul { height: 42px; margin-top:12px; margin-left:3px; }
+.portrait #jim-iphone-kb li { width: 27px; height: 100%; margin-right:5px; display: inline-block; }
+.portrait #jim-iphone-kb li.p { margin-right:0px; }
+.portrait #jim-iphone-kb #letters li.shift { width: 36px; margin-right:12px; }
+.portrait #jim-iphone-kb #letters li.backspace { width: 36px; margin-left:6px; margin-right:0px; }
+.portrait #jim-iphone-kb #letters li.a { margin-left:16px; }
+.portrait #jim-iphone-kb #letters li.numbers { width:75px; margin-right:5px; }
+.portrait #jim-iphone-kb li.space { width:154px; margin-right:6px; }
+.portrait #jim-iphone-kb li.return { width:74px; margin-right:0px; }
+
+.portrait #jim-iphone-kb #numbers ul:first-child + ul + ul > li.signs { width: 37px; margin-right:10px; }
+.portrait #jim-iphone-kb #numbers ul:first-child + ul + ul > li { width: 40px; }
+.portrait #jim-iphone-kb #numbers li:last-child { margin-right:0px; }
+.portrait #jim-iphone-kb #numbers ul:first-child + ul + ul > li.backspace { width: 36px; margin-left:6px; }
+.portrait #jim-iphone-kb li.letters { width:76px; margin-right:4px; }
+
+.portrait #jim-iphone-kb #signs ul:first-child + ul  + ul > li.numbers { width: 37px; margin-right:11px; }
+.portrait #jim-iphone-kb #signs ul:first-child + ul  + ul > li { width: 40px; }
+.portrait #jim-iphone-kb #signs li:last-child { margin-right:0px; }
+.portrait #jim-iphone-kb #signs ul:first-child + ul + ul > li.backspace { width: 36px; margin-left:5px; }
+
+.portrait #jim-iphone-kb #letters { position: absolute; background-size: 100% auto; width:100%; height:100%; background-image:url('../../../../../images/mobile/ios/ios7/iphone5/portrait/letters_iphone@2x.png'); }
+.portrait #jim-iphone-kb #numbers { position: absolute; background-size: 100% auto; width:100%; height:100%; background-image:url('../../../../../images/mobile/ios/ios7/iphone5/portrait/numbers_iphone@2x.png'); display:none; }
+.portrait #jim-iphone-kb #signs { position: absolute; background-size: 100% auto; width:100%; height:100%; background-image:url('../../../../../images/mobile/ios/ios7/iphone5/portrait/symbols_iphone@2x.png'); display:none; }
+
+.portrait #jim-iphone-kb #letters .shift.caps { background-image:url('../../../../../images/mobile/ios/ios7/iphone5/portrait/keyshift_pressed@2x.png'); width:100%px; height:100%; background-size: 100% auto; background-repeat: no-repeat; }
+.portrait #jim-iphone-kb #letters .shift.capsLock { background-image:url('../../../../../images/mobile/ios/ios7/iphone5/portrait/keyshift_active@2x.png'); width:100%px; height:100%; background-size: 100% auto; background-repeat: no-repeat; }
+.portrait #jim-iphone-kb .space.pressed { background-image:url('../../../../../images/mobile/ios/ios7/iphone5/portrait/keyspace_pressed@2x.png'); height:100%; background-size: 100% auto; background-repeat: no-repeat; }
+.portrait #jim-iphone-kb .backspace.pressed { background-image:url('../../../../../images/mobile/ios/ios7/iphone5/portrait/keyerase_pressed@2x.png'); height:100%; background-size: 100% auto; background-repeat: no-repeat; }
+.portrait #jim-iphone-kb .return.pressed { background-image:url('../../../../../images/mobile/ios/ios7/iphone5/portrait/keyreturn_pressed@2x.png'); height:100%; background-size: 100% auto; background-repeat: no-repeat; }
+
+.portrait #jim-iphone-kb .divBubble { position:absolute; display:block; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/portrait/keybubble_iphone@2x.png'); background-size: 100% auto; width:58px; height:105px; }
+.portrait #jim-iphone-kb .keyBubble { font-size:45px; font-family:'iOS-Light'; display:block; text-align: center; height: 100%; padding-top: 0px; }
+.portrait #jim-iphone-kb .divBubbleBig { position:absolute; display:block; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/portrait/keybubble2_iphone@2x.png'); background-size: 100% auto; width:70px; height:105px; }
+
+
+.landscape #jim-iphone-kb { position: absolute; top: 158px; left: 0px; width: 568px; height: 162px; z-index:999; display:none; }
+.landscape #jim-iphone-kb ul { height: 34px; margin-top:6px; margin-left:22px; }
+.landscape #jim-iphone-kb li { width: 48px; height: 33px; margin-right:5px; display: inline-block; }
+.landscape #jim-iphone-kb li.p { margin-right:0px; }
+.landscape #jim-iphone-kb #letters li.shift { width: 62px; margin-right:17px; margin-left:1px; }
+.landscape #jim-iphone-kb #letters li.backspace { width: 64px; margin-left:7px; }
+.landscape #jim-iphone-kb #letters li.a { margin-left:27px; }
+.landscape #jim-iphone-kb #letters li.numbers { width:101px; margin-right:5px; }
+.landscape #jim-iphone-kb li.space { width:312px; margin-right:6px; }
+.landscape #jim-iphone-kb li.return { width:99px; }
+
+.landscape #jim-iphone-kb li:last-child { margin-right:0px; }
+.landscape #jim-iphone-kb #numbers ul:first-child + ul  + ul > li.signs { width: 65px; margin-right:15px; }
+.landscape #jim-iphone-kb #numbers ul:first-child + ul  + ul > li { width: 69px; }
+.landscape #jim-iphone-kb #numbers ul:first-child + ul  + ul > li.backspace { width: 66px; margin-left:7px; }
+.landscape #jim-iphone-kb li.letters { width:101px; margin-right:5px; }
+
+.landscape #jim-iphone-kb #signs > ul:first-child + ul  + ul li.numbers { width: 65px; margin-right:15px; }
+.landscape #jim-iphone-kb #signs > ul:first-child + ul  + ul li { width: 69px; }
+.landscape #jim-iphone-kb #signs li:last-child { margin-right:0px; }
+.landscape #jim-iphone-kb #signs ul:first-child + ul  + ul > li.backspace { width: 66px; margin-left:6px; }
+
+.landscape #jim-iphone-kb #letters { position: absolute; background-size: 100% auto; width:100%; height:100%; background-image:url('../../../../../images/mobile/ios/ios7/iphone5/landscape/letters_iphone_landscape@2x.png'); }
+.landscape #jim-iphone-kb #numbers { position: absolute; background-size: 100% auto; width:100%; height:100%; background-image:url('../../../../../images/mobile/ios/ios7/iphone5/landscape/numbers_iphone_landscape@2x.png'); display:none; }
+.landscape #jim-iphone-kb #signs { position: absolute; background-size: 100% auto; width:100%; height:100%; background-image:url('../../../../../images/mobile/ios/ios7/iphone5/landscape/symbols_iphone_landscape@2x.png'); display:none; }
+
+.landscape #jim-iphone-kb #letters .shift.caps { background-image:url('../../../../../images/mobile/ios/ios7/iphone5/landscape/keyshift_pressed@2x.png'); width:100%px; height:100%; background-size: 100% auto; background-repeat: no-repeat; }
+.landscape #jim-iphone-kb #letters .shift.capsLock { background-image:url('../../../../../images/mobile/ios/ios7/iphone5/landscape/keyshift_active@2x.png'); width:100%px; height:100%; background-size: 100% auto; background-repeat: no-repeat; }
+.landscape #jim-iphone-kb .space.pressed { background-image:url('../../../../../images/mobile/ios/ios7/iphone5/landscape/keyspace_pressed@2x.png'); background-size: 100% 101%; background-repeat: no-repeat; }
+.landscape #jim-iphone-kb .backspace.pressed { background-image:url('../../../../../images/mobile/ios/ios7/iphone5/landscape/keyerase_pressed@2x.png'); background-size: 100% 98%; background-repeat: no-repeat; background-position-y:-1px; }
+.landscape #jim-iphone-kb .return.pressed { background-image:url('../../../../../images/mobile/ios/ios7/iphone5/landscape/keyreturn_pressed@2x.png'); background-size: 100% 99%; background-repeat: no-repeat; }
+
+.landscape #jim-iphone-kb .divBubble { position:absolute; display:block; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/landscape/keybubble_iphone@2x.png'); background-size: 100% auto; width:79px; height:105px; }
+.landscape #jim-iphone-kb .keyBubble { font-size:45px; font-family:'iOS-Light'; display:block; text-align: center; height: 100%; padding-top: 0px; }
+.landscape #jim-iphone-kb .divBubbleBig { position:absolute; display:block; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/landscape/keybubble2_iphone@2x.png'); background-size: 100% auto; width:99px; height:105px; }
+
+/* dropdown values */
+.portrait #jim-iphone-dd { position: absolute; top: 308px; left: 0px; width: 320px; height: 260px; z-index:999; display:none; background-color:#ffffff; }
+.portrait #jim-iphone-dd #jim-iphone-dd_controls { height:43px; width:100%; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/portrait/date_topbar@2x.png'); }
+.portrait #jim-iphone-dd #jim-iphone-dd_mask { width: 320px; height: 217px; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/portrait/dategradient@2x.png'); background-size: 100% 100%; overflow:hidden; position:absolute; top:43px; pointer-events:none; background-repeat:repeat-x; }
+.portrait #jim-iphone-dd #jim-iphone-dd_options { margin-left: 10px; margin-top:0px; vertical-align:top; overflow:hidden; height: 217px; }
+.portrait #jim-iphone-dd #jim-iphone-dd_options .dd_options { width: 300px; height: 205px; }
+.portrait #jim-iphone-dd #jim-iphone-dd_options_big { position:absolute; top:133px; width: 100%; height: 34px; overflow:hidden; background-color:white; pointer-events:none; }
+.portrait #jim-iphone-dd #jim-iphone-dd_options_big .dd_options { position:relative; }
+
+.portrait .dd_options .options { margin: 0 auto; height: 30px; color: #a2a2a2; font-size:20px; line-height:30px; font-family:'iOS-Light'; display:block; padding-top:3px; text-shadow: 0px 0px 1px #777777; text-align:center; }
+.portrait #jim-iphone-dd_options_big .options { margin: 0 auto; height: 29px; line-height:29px; color: #000000; font-size:21px; font-family:'iOS-Light'; display:block; padding-top:3px; text-shadow: 0px 0px 1px #000000; text-align:center; }
+.portrait #jim-iphone-dd #jim-iphone-dd_controls .dd_controls-done { margin-left: 270px; padding-top:10px; font-family:'iOS-Regular'; color:#000000; text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-dd #jim-iphone-dd_controls .dd_controls-done.pressed { color:#c8c8c8; text-shadow: 0px 0px 1px #c8c8c8; }
+
+
+.landscape #jim-iphone-dd { position: absolute; top: 114px; left: 0px; width: 568px; height: 206px; z-index:999; display:none; position: absolute; background-color:#ffffff; }
+.landscape #jim-iphone-dd #jim-iphone-dd_controls { height:43px; width:100%; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/landscape/date_topbar_landscape@2x.png'); }
+.landscape #jim-iphone-dd #jim-iphone-dd_mask { width: 568px; height: 163px; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/landscape/dategradient_landscape@2x.png'); background-size: 100% 100%; overflow:hidden; position:absolute; top:43px; pointer-events:none; background-repeat:repeat-x; }
+.landscape #jim-iphone-dd #jim-iphone-dd_options { margin-left: 10px; margin-top:0px; vertical-align:top; overflow:hidden; height:163px; }
+.landscape #jim-iphone-dd #jim-iphone-dd_options .dd_options { width: 548px; height: 140px; }
+.landscape #jim-iphone-dd #jim-iphone-dd_options_big { position:absolute; top:112px; width: 100%; height: 25px; overflow:hidden; background-color:white; pointer-events:none; }
+.landscape #jim-iphone-dd #jim-iphone-dd_options_big .dd_options { position:relative; }
+
+.landscape .dd_options .options { margin: 0 auto; height: 20px; color: #a2a2a2; font-size:20px; line-height:20px; font-family:'iOS-Light'; display:block; padding-top:3px; text-shadow: 0px 0px 1px #777777; text-align:center; }
+.landscape #jim-iphone-dd_options_big .options { margin: 0 auto; height: 20px; line-height:19px; color: #000000; font-size:21px; font-family:'iOS-Light'; display:block; padding-top:3px; text-shadow: 0px 0px 1px #000000; text-align:center; }
+.landscape #jim-iphone-dd #jim-iphone-dd_controls .dd_controls-done { margin-left: 515px; padding-top:10px; font-family:'iOS-Regular'; color:#000000; text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-dd #jim-iphone-dd_controls .dd_controls-done.pressed { color:#c8c8c8; text-shadow: 0px 0px 1px #c8c8c8; }
+
+/* date values*/
+.portrait #jim-iphone-da { position: absolute; top: 308px; left: 0px; width: 320px; height: 260px; z-index:999; display:none; background-color:#ffffff; }
+.portrait #jim-iphone-da #jim-iphone-da_controls { height:43px; width:100%; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/portrait/date_topbar@2x.png'); }
+.portrait #jim-iphone-da .jim-iphone-da_mask { width: 320px; height: 217px; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/portrait/dategradient@2x.png'); background-size: 100% 100%; overflow:hidden; position:absolute; top:43px; pointer-events:none; background-repeat:repeat-x; }
+.portrait #jim-iphone-da #jim-iphone-da_options { margin-left: 0px; margin-top:0px; vertical-align:top; overflow:hidden; height: 217px; }
+.portrait #jim-iphone-da #jim-iphone-da_options .da_options { width: 300px; height: 205px; }
+.portrait #jim-iphone-da #jim-iphone-da_options_big { position:absolute; top:133px; width: 100%; height: 34px; overflow:hidden; background-color:white; pointer-events:none; }
+.portrait #jim-iphone-da #jim-iphone-da_options_big .da_options { position:relative; }
+
+.portrait #jim-iphone-da #jim-iphone-da_options .da_months { width: 110px; height: 192px; top:-210px; padding-right: 10px; padding-left:34px; float:left; }
+.portrait #jim-iphone-da #jim-iphone-da_options .da_days { width: 35px; height: 192px; top:-210px; padding-right: 18px; float:left; }
+.portrait #jim-iphone-da #jim-iphone-da_options .da_years { width: 88px; height: 192px; top:-210px; text-align:center; float:left; }
+.portrait #jim-iphone-da .da_months .months { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-shadow: 0px 0px 1px #777777; }
+.portrait #jim-iphone-da .da_days .days { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-align:right; text-shadow: 0px 0px 1px #777777; }
+.portrait #jim-iphone-da .da_years .years { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-shadow: 0px 0px 1px #777777; }
+.portrait #jim-iphone-da #jim-iphone-da_options_big .da_months { width: 110px; height: 192px; top:-302px; padding-right: 16px; padding-left:28px; float:left; position:relative; }
+.portrait #jim-iphone-da #jim-iphone-da_options_big .da_days { width: 35px; height: 192px; top:-302px; padding-right: 18px; float:left; position:relative; }
+.portrait #jim-iphone-da #jim-iphone-da_options_big .da_years { width: 88px; height: 192px; top:-302px; text-align:center; float:left; position:relative; }
+.portrait #jim-iphone-da #jim-iphone-da_options_big .da_months .months { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px;  text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-da #jim-iphone-da_options_big .da_days .days { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-align:right;  text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-da #jim-iphone-da_options_big .da_years .years { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-da .da_days .newDays { visibility: hidden; display:none; }
+
+.portrait #jim-iphone-da #jim-iphone-da_controls .da_controls-clear { float:left; margin-left: 225px; padding-top:10px; font-family:'iOS-Light'; color:#000000; text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-da #jim-iphone-da_controls .da_controls-clear.pressed { color:#c8c8c8; text-shadow: 0px 0px 1px #c8c8c8; }
+.portrait #jim-iphone-da #jim-iphone-da_controls .da_controls-done { margin-left: 270px; padding-top:10px; font-family:'iOS-Regular'; color:#000000; text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-da #jim-iphone-da_controls .da_controls-done.pressed { color:#c8c8c8; text-shadow: 0px 0px 1px #c8c8c8; }
+
+
+.landscape #jim-iphone-da { position: absolute; top: 114px; left: 0px; width: 568px; height: 206px; z-index:999; display:none; background-color:#ffffff; }
+.landscape #jim-iphone-da #jim-iphone-da_controls { height:43px; width:100%; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/landscape/date_topbar_landscape@2x.png'); }
+.landscape #jim-iphone-da .jim-iphone-da_mask { width: 568px; height: 163px; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/landscape/dategradient_landscape@2x.png'); background-size: 100% 100%; overflow:hidden; position:absolute; top:43px; pointer-events:none; background-repeat:repeat-x; }
+.landscape #jim-iphone-da #jim-iphone-da_options { margin-left: 0px; margin-top:0px; vertical-align:top; overflow:hidden; height: 163px; }
+.landscape #jim-iphone-da #jim-iphone-da_options .da_options { width: 300px; height: 205px; }
+.landscape #jim-iphone-da #jim-iphone-da_options_big { position:absolute; top:112px; width: 100%; height: 25px; overflow:hidden; background-color:white; pointer-events:none; }
+.landscape #jim-iphone-da #jim-iphone-da_options_big .da_options { position:relative; }
+
+.landscape #jim-iphone-da #jim-iphone-da_options .da_months { width: 110px; height: 192px; top:-235px; padding-right: 10px; padding-left:150px; float:left; }
+.landscape #jim-iphone-da #jim-iphone-da_options .da_days { width: 35px; height: 192px; top:-235px; padding-right: 18px; float:left; }
+.landscape #jim-iphone-da #jim-iphone-da_options .da_years { width: 88px; height: 192px; top:-235px; text-align:center; float:left; }
+.landscape #jim-iphone-da .da_months .months { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-shadow: 0px 0px 1px #777777; }
+.landscape #jim-iphone-da .da_days .days { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-align:right; text-shadow: 0px 0px 1px #777777; }
+.landscape #jim-iphone-da .da_years .years { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-shadow: 0px 0px 1px #777777; }
+.landscape #jim-iphone-da #jim-iphone-da_options_big .da_months { width: 110px; height: 192px; top:-307px; padding-right: 10px; padding-left:150px; float:left; position:relative; }
+.landscape #jim-iphone-da #jim-iphone-da_options_big .da_days { width: 35px; height: 192px; top:-307px; padding-right: 18px; float:left; position:relative; }
+.landscape #jim-iphone-da #jim-iphone-da_options_big .da_years { width: 88px; height: 192px; top:-307px; text-align:center; float:left; position:relative; }
+.landscape #jim-iphone-da #jim-iphone-da_options_big .da_months .months { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px;  text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-da #jim-iphone-da_options_big .da_days .days { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-align:right;  text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-da #jim-iphone-da_options_big .da_years .years { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-da .da_days .newDays { visibility: hidden; display:none; }
+
+.landscape #jim-iphone-da #jim-iphone-da_controls .da_controls-clear { float:left; margin-left: 470px; padding-top:10px; font-family:'iOS-Light'; color:#000000; text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-da #jim-iphone-da_controls .da_controls-clear.pressed { color:#c8c8c8; text-shadow: 0px 0px 1px #c8c8c8; }
+.landscape #jim-iphone-da #jim-iphone-da_controls .da_controls-done { margin-left: 515px; padding-top:10px; font-family:'iOS-Regular'; color:#000000; text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-da #jim-iphone-da_controls .da_controls-done.pressed { color:#c8c8c8; text-shadow: 0px 0px 1px #c8c8c8; }
+
+
+/* time values */
+.portrait #jim-iphone-ti { position: absolute; top: 308px; left: 0px; width: 320px; height: 260px; z-index:999; display:none; background-color:#ffffff; }
+.portrait #jim-iphone-ti #jim-iphone-ti_controls { height:43px; width:100%; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/portrait/date_topbar@2x.png'); }
+.portrait #jim-iphone-ti .jim-iphone-ti_mask { width: 320px; height: 217px; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/portrait/dategradient@2x.png'); background-size: 100% 100%; overflow:hidden; position:absolute; top:43px; pointer-events:none; background-repeat:repeat-x; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options { margin-left: 0px; margin-top:0px; vertical-align:top; overflow:hidden; height: 217px; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options .ti_options { width: 300px; height: 205px; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options_big { position:absolute; top:133px; width: 100%; height: 34px; overflow:hidden; background-color:white; pointer-events:none; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options_big .ti_options { position:relative; }
+
+.portrait #jim-iphone-ti #jim-iphone-ti_options .ti_hours { width: 50px; height: 192px; top:-210px; padding-right: 34px; padding-left:46px; float:left; text-align:right; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options .ti_minutes { width: 35px; height: 192px; top:-210px; padding-right: 18px; float:left; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options .ti_periods { width: 88px; height: 192px; top:90px; text-align:center; float:left; }
+.portrait #jim-iphone-ti .ti_hours .hours { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-shadow: 0px 0px 1px #777777; }
+.portrait #jim-iphone-ti .ti_minutes .minutes { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-align:right; text-shadow: 0px 0px 1px #777777; }
+.portrait #jim-iphone-ti .ti_periods .periods { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-shadow: 0px 0px 1px #777777; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options_big .ti_hours { width: 50px; height: 192px; top:-302px; padding-right: 34px; padding-left:46px; float:left; position:relative; text-align:right; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options_big .ti_minutes { width: 35px; height: 192px; top:-302px; padding-right: 18px; float:left; position:relative; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options_big .ti_periods { width: 88px; height: 192px; top:-2px; text-align:center; float:left; position:relative; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options_big .ti_hours .hours { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px;  text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options_big .ti_minutes .minutes { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-align:right;  text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options_big .ti_periods .periods { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options .ti_periods.am { top: 90px; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options .ti_periods.pm { top: 60px; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options_big .ti_periods.am { top: -2px; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options_big .ti_periods.pm { top: -32px; }
+
+.portrait #jim-iphone-ti #jim-iphone-ti_controls .ti_controls-clear { float:left; margin-left: 225px; padding-top:10px; font-family:'iOS-Light'; color:#000000; text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-ti #jim-iphone-ti_controls .ti_controls-clear.pressed { color:#c8c8c8; text-shadow: 0px 0px 1px #c8c8c8; }
+.portrait #jim-iphone-ti #jim-iphone-ti_controls .ti_controls-done { margin-left: 270px; padding-top:10px; font-family:'iOS-Regular'; color:#000000; text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-ti #jim-iphone-ti_controls .ti_controls-done.pressed { color:#c8c8c8; text-shadow: 0px 0px 1px #c8c8c8; }
+
+
+.landscape #jim-iphone-ti { position: absolute; top: 114px; left: 0px; width: 568px; height: 206px; z-index:999; display:none; background-color:#ffffff; }
+.landscape #jim-iphone-ti #jim-iphone-ti_controls { height:43px; width:100%; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/landscape/date_topbar_landscape@2x.png'); }
+.landscape #jim-iphone-ti .jim-iphone-ti_mask { width: 568px; height: 163px; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/landscape/dategradient_landscape@2x.png'); background-size: 100% 100%; overflow:hidden; position:absolute; top:43px; pointer-events:none; background-repeat:repeat-x; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options { margin-left: 0px; margin-top:0px; vertical-align:top; overflow:hidden; height: 163px; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options .ti_options { width: 300px; height: 205px; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options_big { position:absolute; top:112px; width: 100%; height: 25px; overflow:hidden; background-color:white; pointer-events:none; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options_big .ti_options { position:relative; }
+
+.landscape #jim-iphone-ti #jim-iphone-ti_options .ti_hours { width: 50px; height: 192px; top:-235px; padding-right: 36px; padding-left:160px; float:left; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options .ti_minutes { width: 35px; height: 192px; top:-235px; padding-right: 18px; float:left; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options .ti_periods { width: 88px; height: 192px; top:65px; text-align:center; float:left; }
+.landscape #jim-iphone-ti .ti_hours .hours { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-shadow: 0px 0px 1px #777777; text-align:right; }
+.landscape #jim-iphone-ti .ti_minutes .minutes { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-align:right; text-shadow: 0px 0px 1px #777777; }
+.landscape #jim-iphone-ti .ti_periods .periods { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-shadow: 0px 0px 1px #777777; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options_big .ti_hours { width: 50px; height: 192px; top:-307px; padding-right: 36px; padding-left:160px; float:left; position:relative; text-align:right; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options_big .ti_minutes { width: 35px; height: 192px; top:-307px; padding-right: 18px; float:left; position:relative; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options_big .ti_periods { width: 88px; height: 192px; top:-7px; text-align:center; float:left; position:relative; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options_big .ti_hours .hours { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px;  text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options_big .ti_minutes .minutes { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-align:right;  text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options_big .ti_periods .periods { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options .ti_periods.am { top: 65px; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options .ti_periods.pm { top: 36px; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options_big .ti_periods.am { top: -7px; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options_big .ti_periods.pm { top: -37px; }
+
+.landscape #jim-iphone-ti #jim-iphone-ti_controls .ti_controls-clear { float:left; margin-left: 470px; padding-top:10px; font-family:'iOS-Light'; color:#000000; text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-ti #jim-iphone-ti_controls .ti_controls-clear.pressed { color:#c8c8c8; text-shadow: 0px 0px 1px #c8c8c8; }
+.landscape #jim-iphone-ti #jim-iphone-ti_controls .ti_controls-done { margin-left: 515px; padding-top:10px; font-family:'iOS-Regular'; color:#000000; text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-ti #jim-iphone-ti_controls .ti_controls-done.pressed { color:#c8c8c8; text-shadow: 0px 0px 1px #c8c8c8; }
+
+/* date & time values */
+.portrait #jim-iphone-dt { position: absolute; top: 308px; left: 0px; width: 320px; height: 260px; z-index:999; display:none; background-color:#ffffff; }
+.portrait #jim-iphone-dt #jim-iphone-dt_controls { height:43px; width:100%; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/portrait/date_topbar@2x.png'); }
+.portrait #jim-iphone-dt .jim-iphone-dt_mask { width: 320px; height: 217px; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/portrait/dategradient@2x.png'); background-size: 100% 100%; overflow:hidden; position:absolute; top:43px; pointer-events:none; background-repeat:repeat-x; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options { margin-left: 0px; margin-top:0px; vertical-align:top; overflow:hidden; height: 217px; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_options { width: 300px; height: 205px; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big { position:absolute; top:133px; width: 100%; height: 34px; overflow:hidden; background-color:white; pointer-events:none; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .da_options { position:relative; }
+
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_date { width: 132px; height: 192px; top:-210px; padding-right: 0px; padding-left:24px; float:left; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_date .dt_weekday { width: 49px; padding-right: 6px; text-align:right; float:left; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_date .dt_day { width: 77px; float:left; text-align:left; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_date .dt_year { float:left; visibility:hidden; display:none; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_hours { width: 30px; height: 192px; top:-210px; padding-right: 18px; float:left; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_minutes { width: 30px; height: 192px; top:-210px; padding-right: 18px; float:left; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_periods { width: 35px; height: 192px; top:90px; text-align:center; float:left; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_date .date { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-shadow: 0px 0px 1px #777777; position:inherit; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_hours .hours { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-align:right; text-shadow: 0px 0px 1px #777777; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_minutes .minutes { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-shadow: 0px 0px 1px #777777; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_periods .periods { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-shadow: 0px 0px 1px #777777; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_date { width: 132px; height: 192px; top:-302px; padding-right: 6px; padding-left:18px; float:left; position:relative; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_date .dt_weekday { width: 49px; padding-right: 6px; text-align:right; float:left; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_date .dt_day { width: 77px; float:left; text-align:left; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_date .dt_year { float:left; visibility:hidden; display:none; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_hours { width: 30px; height: 192px; top:-302px; padding-right: 18px; float:left; position:relative; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_minutes { width: 30px; height: 192px; top:-302px; padding-right: 18px; float:left; position:relative; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_periods { width: 35px; height: 192px; top:-2px; text-align:center; float:left; position:relative; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_date .date { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_hours .hours { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-align:right; text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_minutes .minutes { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_periods .periods { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_periods.am { top: 90px; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_periods.pm { top: 60px; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_periods.am { top: -2px; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_periods.pm { top: -32px; }
+
+.portrait #jim-iphone-dt #jim-iphone-dt_controls .dt_controls-clear { float:left; margin-left: 225px; padding-top:10px; font-family:'iOS-Light'; color:#000000; text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-dt #jim-iphone-dt_controls .dt_controls-clear.pressed { color:#c8c8c8; text-shadow: 0px 0px 1px #c8c8c8; }
+.portrait #jim-iphone-dt #jim-iphone-dt_controls .dt_controls-done { margin-left: 270px; padding-top:10px; font-family:'iOS-Regular'; color:#000000; text-shadow: 0px 0px 1px #000000; }
+.portrait #jim-iphone-dt #jim-iphone-dt_controls .dt_controls-done.pressed { color:#c8c8c8; text-shadow: 0px 0px 1px #c8c8c8; }
+
+
+.landscape #jim-iphone-dt { position: absolute; top: 114px; left: 0px; width: 568px; height: 206px; z-index:999; display:none; background-color:#ffffff; }
+.landscape #jim-iphone-dt #jim-iphone-dt_controls { height:43px; width:100%; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/landscape/date_topbar_landscape@2x.png'); }
+.landscape #jim-iphone-dt .jim-iphone-dt_mask { width: 568px; height: 163px; background-image: url('../../../../../images/mobile/ios/ios7/iphone5/landscape/dategradient_landscape@2x.png'); background-size: 100% 100%; overflow:hidden; position:absolute; top:43px; pointer-events:none; background-repeat:repeat-x; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options { margin-left: 0px; margin-top:0px; vertical-align:top; overflow:hidden; height: 163px; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_options { width: 300px; height: 205px; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big { position:absolute; top:112px; width: 100%; height: 25px; overflow:hidden; background-color:white; pointer-events:none; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .da_options { position:relative; }
+
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_date { width: 132px; height: 192px; top:-235px; padding-right: 0px; padding-left:140px; float:left; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_date .dt_weekday { width: 49px; padding-right: 6px; text-align:right; float:left; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_date .dt_day { width: 77px; float:left; text-align:left; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_date .dt_year { float:left; visibility:hidden; display:none; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_hours { width: 35px; height: 192px; top:-235px; padding-right: 25px; float:left; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_minutes { width: 35px; height: 192px; top:-235px; padding-right: 14px; float:left; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_periods { width: 35px; height: 192px; top:65px; text-align:center; float:left; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_date .date { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-shadow: 0px 0px 1px #777777; position:inherit; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_hours .hours { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-align:right; text-shadow: 0px 0px 1px #777777; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_minutes .minutes { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-shadow: 0px 0px 1px #777777; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_periods .periods { height: 30px; line-height:30px; color: #a2a2a2; font-size:21px; font-family:'iOS-Light'; text-shadow: 0px 0px 1px #777777; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_date { width: 132px; height: 192px; top:-307px; padding-right: 4px; padding-left:136px; float:left; position:relative; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_date .dt_weekday { width: 49px; padding-right: 6px; text-align:right; float:left; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_date .dt_day { width: 77px; float:left; text-align:left; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_date .dt_year { float:left; visibility:hidden; display:none; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_hours { width: 35px; height: 192px; top:-307px; padding-right: 23px; float:left; position:relative; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_minutes { width: 35px; height: 192px; top:-307px; padding-right: 16px; float:left; position:relative; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_periods { width: 35px; height: 192px; top:-7px; text-align:center; float:left; position:relative; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_date .date { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_hours .hours { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-align:right; text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_minutes .minutes { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_periods .periods { height: 27px; line-height:30px; color: #000000; font-size:23px; font-family:'iOS-Light'; padding-top:3px; text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_periods.am { top: 65px; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_periods.pm { top: 36px; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_periods.am { top: -7px; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_periods.pm { top: -37px; }
+
+.landscape #jim-iphone-dt #jim-iphone-dt_controls .dt_controls-clear { float:left; margin-left: 470px; padding-top:10px; font-family:'iOS-Light'; color:#000000; text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-dt #jim-iphone-dt_controls .dt_controls-clear.pressed { color:#c8c8c8; text-shadow: 0px 0px 1px #c8c8c8; }
+.landscape #jim-iphone-dt #jim-iphone-dt_controls .dt_controls-done { margin-left: 515px; padding-top:10px; font-family:'iOS-Regular'; color:#000000; text-shadow: 0px 0px 1px #000000; }
+.landscape #jim-iphone-dt #jim-iphone-dt_controls .dt_controls-done.pressed { color:#c8c8c8; text-shadow: 0px 0px 1px #c8c8c8; }

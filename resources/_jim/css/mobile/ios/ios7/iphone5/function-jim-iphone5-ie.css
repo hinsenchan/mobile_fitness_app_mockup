@@ -1,0 +1,82 @@
+/* start iPhone 5 css values*/
+#jim-case { background-image: none; }
+#jim-case.portrait { filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0) progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='./resources/_jim/images/mobile/ios/ios7/iphone5/iphone5.png'); }
+#jim-case.landscape { filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1) progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='./resources/_jim/images/mobile/ios/ios7/iphone5/iphone5.png'); }
+#jim-container.landscape { top: 68px; left: 153px; }
+
+/* keyboard values */
+.portrait #jim-iphone-kb .keyBubble { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-kb .keyBubble { font-family:'iOS-Regular'; }
+
+.landscape #jim-iphone-kb .backspace.pressed { background-position-y: 0px; }
+.landscape #jim-iphone-kb .return.pressed { background-size: 100% 100%; }
+
+/* dropdown values*/
+.portrait .dd_options .options { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-dd_options_big .options { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-dd #jim-iphone-dd_controls .dd_controls-done { font-family:'iOS-Bold'; }
+
+.landscape .dd_options .options { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-dd_options_big .options { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-dd #jim-iphone-dd_controls .dd_controls-done { font-family:'iOS-Bold'; }
+
+/* date values */
+.portrait #jim-iphone-da .da_months .months { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-da .da_days .days { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-da .da_years .years { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-da #jim-iphone-da_options_big .da_months .months { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-da #jim-iphone-da_options_big .da_days .days { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-da #jim-iphone-da_options_big .da_years .years { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-da #jim-iphone-da_controls .da_controls-clear { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-da #jim-iphone-da_controls .da_controls-done { font-family:'iOS-Bold'; }
+
+.landscape #jim-iphone-da .da_months .months { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-da .da_days .days { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-da .da_years .years { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-da #jim-iphone-da_options_big .da_months .months { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-da #jim-iphone-da_options_big .da_days .days { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-da #jim-iphone-da_options_big .da_years .years { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-da #jim-iphone-da_controls .da_controls-clear { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-da #jim-iphone-da_controls .da_controls-done { font-family:'iOS-Bold'; }
+
+/* time values */
+.portrait #jim-iphone-ti .ti_hours .hours { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-ti .ti_minutes .minutes { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-ti .ti_periods .periods { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options_big .ti_hours .hours { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options_big .ti_minutes .minutes { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-ti #jim-iphone-ti_options_big .ti_periods .periods { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-ti #jim-iphone-ti_controls .ti_controls-clear { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-ti #jim-iphone-ti_controls .ti_controls-done { font-family:'iOS-Bold'; }
+
+.landscape #jim-iphone-ti .ti_hours .hours { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-ti .ti_minutes .minutes { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-ti .ti_periods .periods { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options_big .ti_hours .hours { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options_big .ti_minutes .minutes { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-ti #jim-iphone-ti_options_big .ti_periods .periods { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-ti #jim-iphone-ti_controls .ti_controls-clear { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-ti #jim-iphone-ti_controls .ti_controls-done { font-family:'iOS-Bold'; }
+
+/* datetime values */
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_date .date { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_hours .hours { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_minutes .minutes { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options .dt_periods .periods { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_date .date { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_hours .hours { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_minutes .minutes { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-dt #jim-iphone-dt_options_big .dt_periods .periods { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-dt #jim-iphone-dt_controls .dt_controls-clear { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-dt #jim-iphone-dt_controls .dt_controls-done { font-family:'iOS-Bold'; }
+
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_date .date { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_hours .hours { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_minutes .minutes { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options .dt_periods .periods { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_date .date { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_hours .hours { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_minutes .minutes { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-dt #jim-iphone-dt_options_big .dt_periods .periods { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-dt #jim-iphone-dt_controls .dt_controls-clear { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-dt #jim-iphone-dt_controls .dt_controls-done { font-family:'iOS-Bold'; }
