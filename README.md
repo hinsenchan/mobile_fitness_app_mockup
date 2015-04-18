@@ -52,12 +52,14 @@ Group events are system hosted or sponsored events such as marathons, decathlons
 
 There are two types of users who shall interact with this system: administrators and patients. 
 
+Administrators:
 * Administrators shall perform upgrades and maintenance for both the web server and mobile application. 
 * Administrators may add, remove, or update data from the web server.
 * Administrators may add, remove, or update features from the mobile application.
 * Administrators may also add, remove, or update users and events from the system.
 * Administrators shall only interact with the system through the web server.
 
+Patients:
 * Patients shall interact with each other using the mobile application while using the web server as the communication hub.
 * Patients may add, remove, or update their profile information through the use of the mobile application. This data shall then persist through the web server.
 * Patients may also update their location and status information.
