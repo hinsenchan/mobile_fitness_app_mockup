@@ -1,6 +1,6 @@
 # What is Mobile Fitness App Mockup?
 
-Mobile Fitness App Mockup is an application design developed using the Software Development Life Cycle (SDLC). SDLC is a software development process with clearly defined phases. The purpose of utilizing a SDLC is to develop a high quality software that meets/exceeds customer expectations. The goal of Mobile Fitness App Mockup is to increase happiness in obesity patients. This software provides tools to motivate patients to lose weight. By enabling patients to lose weight, patients will be able to improve their quality of life and happiness.
+Mobile Fitness App Mockup is a concept for a software product that is developed using the Software Development Life Cycle (SDLC). SDLC is a software development process with clearly defined phases. The purpose of utilizing a SDLC is to develop a high quality software that meets/exceeds customer expectations. The goal of Mobile Fitness App Mockup is to increase happiness in obesity patients. This software provides tools to motivate patients to lose weight. By enabling patients to lose weight, patients will be able to improve their quality of life and happiness.
 
 # General Description
 
@@ -24,11 +24,11 @@ The profile information, event data, and notifications used by the system is sto
 
 Each user may create a profile that contains personal information such as a screen name, password, email, start/end weight goals, age, quote, activities, limitations, and gym location. Information from the profile along with location data from the GPS locator will be used to match users with exercise buddies and group events.
 
-### Find exercise buddies
+### Find Exercise Buddies
 
 The search function allows users to find other obesity patients and invite them as an exercise buddy. The search may be filtered by distance, exercise goals, activities, and/or physical limitations. Results may be returned as pins on the map page or as line items on the list page. When a potential buddy has been located, an invitation may be sent to add the user as a permanent buddy. In addition to finding new buddies, the search function will also show where buddies are if he/she have checked into an event.
 
-### Find activities
+### Find Activities
 
 The search function allows users to find exercise activities and check into and out of it. The search may be filtered by distance, exercise goals, activities, and/or physical limitations. Results may be returned as pins on the map page or as line items on the list page. When an event has been located, users may view its details which shows a short description, points, members checked in list, and buddies checked in list.
 
@@ -40,24 +40,28 @@ When a special event sponsored or advertised by the system is in the local vicin
 
 Users may add health missions which are weight goals that he/she have set for themselves. There are no set end dates. Users may choose to end the mission when he/she feel comfortable doing so. While the mission is active, users may track their weight and calorie intake each day. Photos may be added to maintain a visual log of the user’s progress. Points and achievements may be earned for the mission by accomplishing very tasks and milestones.
 
-### Earn motivational rewards
+### Earn Motivational Rewards
 
 Points and achievements may be earned by the user for accomplishing tasks and milestones during the course of a health mission. Points are used to rank users on a leaderboard with patients who have similar weight reduction goals. The motivational rewards are used to help users monitor their own progress as well as view other users’ progress.
 
-### Join group events
+### Join Group Events
 
 Group events are system hosted or sponsored events such as marathons, decathlons, themed runs, etc. New group events are pushed to users’ notification list. Users may also search for events in their local vicinity. Each event has a profile which displays its description, points rewarded, participating member list, and participating buddies list.
 
 ## User Characteristics
 
-There are two types of users who shall interact with this system: administrators and patients. Administrators shall perform upgrades and maintenance for both the web server and mobile application. The patients shall interact with each other using the mobile application while using the web server as the communication hub.
+There are two types of users who shall interact with this system: administrators and patients. 
 
-Administrators may add, remove, or update data from the web server.
-Administrators may add, remove, or update features from the mobile application.
-Administrators may also add, remove, or update users and events from the system.
-Administrators shall only interact with the system through the web server.
+* Administrators shall perform upgrades and maintenance for both the web server and mobile application. 
+* Administrators may add, remove, or update data from the web server.
+* Administrators may add, remove, or update features from the mobile application.
+* Administrators may also add, remove, or update users and events from the system.
+* Administrators shall only interact with the system through the web server.
 
-Patients may add, remove, or update their profile information through the use of the mobile application. This data shall then persist through the web server. Patients may also update their location and status information. Patients may also query and filter for information from the web server to find exercise buddies and group events.
+* Patients shall interact with each other using the mobile application while using the web server as the communication hub.
+* Patients may add, remove, or update their profile information through the use of the mobile application. This data shall then persist through the web server.
+* Patients may also update their location and status information.
+* Patients may also query and filter for information from the web server to find exercise buddies and group events.
 
 ## General Constraints
 
@@ -101,7 +105,7 @@ Another assumption is that users of this system are obesity patients who are mot
 
 ![img6_menu](https://github.com/hinsenchan/mobile_fitness_app_mockup/blob/master/readme/img6_menu.png)
 
-## Find BUddies and Activities
+## Find Buddies and Activities
 
 * The system shall display a filtered list of buddies, other members and activities when a filter is applied (such as distance, start/end weight goal, activity and physical/diet limitations).
 * The system shall show members/activities based on the search criteria.
