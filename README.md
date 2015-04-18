@@ -1,8 +1,10 @@
 # What is Mobile Fitness App Mockup?
 
-Mobile Fitness App Mockup is designed with the purpose of assisting motivated obesity patients to make dietary and physical changes to their lifestyle through the use of an exercise buddy as emotional support. Although there are other software products that help patients track their diet and exercise routines, only a few exists which target emotional support as a top priority. Based on the ethnographic research conducted for this system, it is suggested that obesity patients already fully understand the potential of living a healthy lifestyle through proper diet and exercise. Most of these patients feel that they have the knowledge to choose the right diet and exercises to improve their health. The difficulty in maintaining a new healthy lifestyle routine is a lack of emotional support from family and friends. Therefore this system focuses on assisting patients with locating an exercise buddy who is either a patient or former patient. By pairing up users with other patients who they can fully identify with, this system helps people who have similar dietary and exercise goals to motivate each other with their lifestyle change.
+Mobile Fitness App Mockup is an application design developed using the Software Development Life Cycle (SDLC). SDLC is a software development process with clearly defined phases. The purpose of utilizing a SDLC is to develop a high quality software that meets/exceeds customer expectations. The goal of Mobile Fitness App Mockup is to increase happiness in obesity patients. This software provides tools to motivate patients to lose weight. By enabling patients to lose weight, patients will be able to improve their quality of life and happiness.
 
 # General Description
+
+This system is designed with the purpose of assisting motivated obesity patients to make dietary and physical changes to their lifestyle through the use of an exercise buddy as emotional support. Although there are other software products that help patients track their diet and exercise routines, only a few exists which target emotional support as a top priority. Based on the ethnographic research conducted for this system, it is suggested that obesity patients already fully understand the potential of living a healthy lifestyle through proper diet and exercise. Most of these patients feel that they have the knowledge to choose the right diet and exercises to improve their health. The difficulty in maintaining a new healthy lifestyle routine is a lack of emotional support from family and friends. Therefore this system focuses on assisting patients with locating an exercise buddy who is either a patient or former patient. By pairing up users with other patients who they can fully identify with, this system helps people who have similar dietary and exercise goals to motivate each other with their lifestyle change.
 
 ## Product Perspective
 
@@ -106,7 +108,7 @@ Another assumption is that users of this system are obesity patients who are mot
 * The system shall provide an option to send messages.
 * The system shall provide an option to add a friend.
 
-![img7_findBuddiesAndActivity.png](https://github.com/hinsenchan/mobile_fitness_app_mockup/blob/master/readme/img7_findBuddiesAndActivity.png.png)
+![img7_findBuddiesAndActivity.png](https://github.com/hinsenchan/mobile_fitness_app_mockup/blob/master/readme/img7_findBuddiesAndActivity.png)
 
 ![img8_findBuddiesAndActivity](https://github.com/hinsenchan/mobile_fitness_app_mockup/blob/master/readme/img8_findBuddiesAndActivity.png)
 
