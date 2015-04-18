@@ -50,7 +50,7 @@ Group events are system hosted or sponsored events such as marathons, decathlons
 
 ## User Characteristics
 
-There are two types of users who shall interact with this system: administrators and patients. 
+There are two types of users who shall interact with this system: 
 
 Administrators:
 * Administrators shall perform upgrades and maintenance for both the web server and mobile application. 
