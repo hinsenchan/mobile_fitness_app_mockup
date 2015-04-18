@@ -205,4 +205,4 @@ participation, and his buddies’ participation.
 
 # Credits
 
-This software mockup was developed by Khushali Bhatt, Hinsen Chan, Ashwini Nalage, Benjamin Sorlie at Santa Clara University in Fall 2014.
+This software concept was developed by Khushali Bhatt, Hinsen Chan, Ashwini Nalage, Benjamin Sorlie at Santa Clara University in Fall 2014.
