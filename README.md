@@ -2,7 +2,7 @@
 
 Mobile Fitness App Mockup is a concept for a software product that is developed using the Software Development Life Cycle (SDLC). SDLC is a software development process with clearly defined phases. The purpose of utilizing a SDLC is to develop a high quality software that meets/exceeds customer expectations. The goal of Mobile Fitness App Mockup is to increase happiness in obesity patients. This software provides tools to motivate patients to lose weight. By enabling patients to lose weight, patients will be able to improve their quality of life and happiness.
 
-![mobile_fitness_collage](https://github.com/hinsenchan/mobile_fitness_app_mockup/blob/master/readme/mobile_fitness_collage)
+![mobile_fitness_collage](https://github.com/hinsenchan/mobile_fitness_app_mockup/blob/master/readme/mobile_fitness_collage.png)
 
 # General Description
 
